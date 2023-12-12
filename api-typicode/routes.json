@@ -1,0 +1,8 @@
+{
+    "/api/*": "/$1",
+    "/posts/:id/comments": "/posts/:id?_embed=comments",
+    "/albums/:id/photos": "/albums/:id?_embed=photos",
+    "/users/:id/todos": "/users/:id?_embed=todos",
+    "/users/:id/albums": "/users/:id?_embed=albums",
+    "/users/:id/posts": "/users/:id?_embed=posts"
+  }
